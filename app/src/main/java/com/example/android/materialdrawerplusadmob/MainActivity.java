@@ -13,7 +13,7 @@ public class MainActivity extends MaterialNavigationDrawer{
     @Override
     public void init(Bundle savedInstanceState) {
 
-        setDrawerHeaderImage(R.mipmap.ic_launcher);
+        setDrawerHeaderImage(R.drawable.max_movie);
         this.addSection(newSection("Section 1" , new Fragment_1()));
         this.addSection(newSection("Section 2" , new Fragment_2()));
         this.addSection(newSection("Section 2" , new Fragment_3()));
