@@ -46,4 +46,17 @@ public class MainActivity extends MaterialNavigationDrawer{
 
 
 
+
+
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  
+  
+  dependencies {
+	        compile 'com.github.paveltech:MaterialDrawerPlusAdmob:1.0'
+	}
  ```
